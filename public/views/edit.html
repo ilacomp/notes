@@ -1,1 +1,10 @@
-{{edit.note.title}}
+<toaster-container toaster-options="{'time-out': 5000, 'close-button':true, 'animation-class': 'toast-right'}"></toaster-container>
+
+<form class="form-editnote" role="form" ng-submit="edit.save()">
+    <h2 class="form-signin-heading">Edit Note</h2>
+    <input type="text" class="form-control" placeholder="Title" ng-model="edit.note.title" ng-required="true" autofocus>
+    <br><br>
+    <button type="submit" class="btn btn-primary" ng-disabled="edit.disabled">Save</button>
+    <button type="button" class="btn btn-default" ng-disabled="edit.disabled" ng-click="edit.cancel()">Cancel</button>
+    <button type="button" class="btn btn-danger pull-right" ng-disabled="edit.disabled" ng-click="edit.remove()">Delete</button>
+</form>

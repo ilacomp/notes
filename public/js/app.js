@@ -1,9 +1,10 @@
 (function() {
-    angular.module('APP', ['ui.router', 'ngResource']).config( config );
+    angular.module('APP', ['ui.router', 'ngResource', 'toaster']).config( config );
 
-    config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider', '$httpProvider'];
+    config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
 
     function config($stateProvider, $urlRouterProvider, $locationProvider) {
+
         $locationProvider.hashPrefix('!').html5Mode(true);
         $urlRouterProvider.otherwise("/");
         $stateProvider
