@@ -1,0 +1,8 @@
+<toaster-container toaster-options="{'time-out': 5000, 'close-button':true, 'animation-class': 'toast-right'}"></toaster-container>
+<form class="form-newnote" role="form" ng-submit="add.addNote()">
+    <h2 class="form-signin-heading">{{translation.ADDNOTE}}</h2>
+    <input type="text" class="form-control" placeholder="{{translation.TITLE}}" ng-model="add.title" ng-required="true" autofocus>
+    <br><br>
+    <button type="submit" class="btn btn-primary" ng-disabled="add.disabled">{{translation.ADD}}</button>
+    <button type="button" class="btn btn-default" ng-disabled="add.disabled" ng-click="add.cancel()">{{translation.CANCEL}}</button>
+</form>

@@ -1,6 +1,4 @@
-/**
- * Created by Илья on 18.01.2016.
- */
+/* List notes controller */
 (function() {
     angular.module('APP').controller("ListCtrl", ListCtrl);
 

@@ -1,5 +1,6 @@
 (function() {
-    angular.module('APP', ['ui.router', 'ngResource', 'toaster']).config( config );
+    angular.module('APP', ['ui.router', 'ngResource', 'toaster'])
+        .config(config);
 
     config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
 

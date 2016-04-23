@@ -1,0 +1,14 @@
+{
+  "ERROR": "Error",
+  "ERROR_SAVE": "Error while saving note",
+  "ERROR_REMOVE": "Error while removing note",
+  "ADDNOTE": "Add Note",
+  "APPTITLE": "Notes Test",
+  "ADD": "Add",
+  "SAVE": "Save",
+  "CANCEL": "Cancel",
+  "DELETE": "Delete",
+  "TITLE": "Title",
+  "EDIT_NOTE" : "Edit Note",
+  "LIST_NOTES" : "Notes List"
+}

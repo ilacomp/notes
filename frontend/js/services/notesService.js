@@ -8,8 +8,8 @@
         return $resource('http://private-9aad-note10.apiary-mock.com/notes/:id',
             {},
             {
-                post: {method:'POST'},
-                put: {method: 'PUT'}
+                post: {method: 'POST'},
+                put:  {method: 'PUT'}
             }
         );
     };

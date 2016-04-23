@@ -1,7 +1,8 @@
+<h2 class="form-signin-heading">{{translation.LIST_NOTES}}</h2>
 <div class="list-group">
     <a href="/list/{{item.id}}" class="list-group-item" ng-repeat="item in list.list">
         {{item.title}}
         <span class="glyphicon glyphicon-chevron-right pull-right" aria-hidden="true"></span>
     </a>
 </div>
-<button class="btn btn-lg btn-primary btn-block" ng-click="list.add()">Add New Note</button>
+<button class="btn btn-lg btn-primary btn-block" ng-click="list.add()">{{translation.ADDNOTE}}</button>
