@@ -6,6 +6,8 @@ Clone repository
 
 `git clone https://github.com/ilacomp/notes.git`
 
+`cd notes`
+
 Install dependencies
 
 `npm install`
